@@ -1,0 +1,99 @@
+  style>
+        <link herf ="https;//fonts.googleapis.com/css2?family=Roboto;wght@400;700&display">
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" type="image/x-icon" href="image/jewelry1.jpg">
+        <div.gallery {
+            border: 2px solid gold }
+        div.gallery:hover {
+            border: 2px solid gold;
+        }
+        div.gallery img {
+            width: 100%;
+            height: auto;
+        }
+        div.desc {
+            padding:10px;
+            text-align: center;
+        }
+        *{
+            box-sizing: border-box;
+        }
+        .responsive {
+            padding: 0 6px;
+            float: left;
+            width: 24.99999%;
+        }
+        @media only screen and (max-width: 700px) {
+            .responsive {
+                width: 49.99999%;
+                margin: 6px 0;
+            }
+        }
+        @media only screen and (max-width: 500px) {
+            .responsive {
+                width: 100%;
+            }
+        }
+        .clearfix::after{
+            content: "";
+            display: table;
+            clear: both;
+        }
+ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden
+      background-color  #512e5f}
+li {
+      float: left;
+}
+li a, .dropbtn {
+      display: inline-block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+}
+li a:hover,
+ .dropdown:hover 
+ .dropbtn {
+      background-color: #28b463;
+}
+li.dropdown {
+      display: inline-block;
+}
+.dropbtn { 
+     color: white;
+     padding: 16px;
+     font-size: 16px;
+     border: none;
+     cursor: pointer;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 500px;
+  box-shadow: 2px 10px 10px 5px rgba(53, 4, 214, 0.2);
+  padding: 0px;
+  z-index: 1}
+.dropdown-content a {
+     color: black;
+     padding: 12px 16px;
+     text-decoration: none;
+     display: block;
+     text-align: left;
+}
+.dropdown-content a:hover {
+     background-color: #dbdbe4;
+}
+.dropdown:hover
+.dropdown-content {
+     display: block;
+}
